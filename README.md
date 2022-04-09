@@ -1,4 +1,4 @@
-# 15puzzle
+# 15 Puzzle with Heuristic Algorithms
 The classic 15 puzzle is implemented using a feature that allows players to see the next ten moves using one of two heuristic algorithms. New puzzles are unlocked after the previous one is completed.\
 First, a welcome screen is shown for three seconds.\
 <img src="https://user-images.githubusercontent.com/69696262/162587076-ca012aaa-5628-4698-8383-b730a73be168.png" width=60% height=60%>\
