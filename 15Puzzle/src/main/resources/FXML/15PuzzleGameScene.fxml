@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id = "root" minHeight="700" minWidth="700" style="-fx-background-color: #80695e;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller = "Controller">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu text="Solve">
+            <items>
+              <MenuItem fx:id="H1Item" text="AI H1" onAction = "#H1Method" />
+                  <MenuItem fx:id="H2Item" text="AI H2" onAction = "#H2Method" />
+                  <MenuItem text="See Solution" fx:id = "seeSolItem" disable="true" onAction = "#seeSolution" />
+            </items>
+          </Menu>
+            <Menu text="Other Puzzles">
+              <items>
+                <MenuItem fx:id="P1Item" text="Puzzle 1" onAction = "#P1Method" />
+                  <MenuItem fx:id="P2Item" text="Puzzle 2" onAction = "#P2Method" disable="true" />
+                  <MenuItem fx:id="P3Item" text="Puzzle 3" onAction = "#P3Method" disable="true" />
+                  <MenuItem fx:id="P4Item" text="Puzzle 4" onAction = "#P4Method" disable="true" />
+                  <MenuItem fx:id="P5Item" text="Puzzle 5" onAction = "#P5Method" disable="true" />
+                  <MenuItem fx:id="P6Item" text="Puzzle 6" onAction = "#P6Method" disable="true" />
+                  <MenuItem fx:id="P7Item" text="Puzzle 7" onAction = "#P7Method" disable="true" />
+                  <MenuItem fx:id="P8Item" text="Puzzle 8" onAction = "#P8Method" disable="true" />
+                  <MenuItem fx:id="P9Item" text="Puzzle 9" onAction = "#P9Method" disable="true" />
+                  <MenuItem fx:id="P10Item" text="Puzzle 10" onAction = "#P10Method" disable="true" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <MenuItem text="How to Play" onAction = "#howPlayMethod" />
+                  <MenuItem text="Exit" onAction = "#exitMethod" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

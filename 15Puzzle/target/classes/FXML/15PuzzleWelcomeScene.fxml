@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane minHeight="700" minWidth="700" style="-fx-background-color: #9F8170;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Text fill="WHITE" text="Welcome to 15 Puzzle" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Text>
+   </center>
+</BorderPane>
